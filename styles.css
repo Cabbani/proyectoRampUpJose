@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(161, 156, 156);
+};
+
+
+header nav li ul{
+    text-align: right;
+    display:inline-block;
+    width:60%;
+    list-style: none;
+}
