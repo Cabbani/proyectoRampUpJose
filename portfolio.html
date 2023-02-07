@@ -1,24 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- comienzo nav -->
-    <nav id="nav">
-        <ul>
-          <li><a href="./index.html"></a> Home</li>
-          <li><a href="./bigrafia.html"></a> Biografía</li>
-          <li><a href="./portfolio.html"></a> Portfolio</li>
-          <li><a href="./contacto.html"></a> Contacto</li>
-        </ul>
-      </nav>
-      <!-- fin nav -->
-    
-</body>
+    <div class="navbar">
+      <div class="logo">
+        <span class="title">Portfolio</span>
+      </div>
+
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./bigrafia.html">Biografía</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- fin nav -->
+
+    <div id="container-portfolio">
+      <!-- Inicio Cabecera -->
+      <header id="header-portfolio">
+        <div class="logo-portfolio">
+          <h1>Portfolio</h1>
+        </div>
+
+       
+      </header>
+      <!-- Fin Cabecera -->
+
+      <!-- Inicio contenidos -->
+
+      <section id="content-portfolio">
+        <aside id="aside">
+          <h2>¿Quien soy?</h2>
+          <ul>
+            <li>
+              <a href="#">Inicos</a>
+            </li>
+
+            <li>
+              <a href="#">Trayectoria</a>
+            </li>
+
+            <li>
+              <a href="#">Experiencia</a>
+            </li>
+
+            <li>
+              <a href="#">Trabajos</a>
+            </li>
+          </ul>
+        </aside>
+
+        <div id="projects">
+          <article class="project">
+            <div id="image-wrap">
+              <img src="assets/bowie4.jpg" width="100%" height="auto" alt="" />
+            </div>
+            <div class="project-info">
+              <a href="#">Nombre proyecto</a>
+              <p>Sitio web</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div id="image-wrap">
+              <img src="assets/David-Bowie-Aladdin-Sane5.jpg" width="100%" height= "auto" alt="" />
+            </div>
+            <div class="project-info">
+              <a href="#">Nombre proyecto</a>
+              <p>Sitio web</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div id="image-wrap">
+              <img src="assets/david-bowie03.jpg" width="100%" height="auto" alt="" />
+            </div>
+            <div class="project-info">
+              <a href="#">Nombre proyecto</a>
+              <p>Sitio web</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div id="image-wrap">
+              <img src="assets/davidBowieBN.jpg" width="100%" height="auto" alt="" />
+            </div>
+            <div class="project-info">
+              <a href="#">Nombre proyecto</a>
+              <p>Sitio web</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div>
+              <iframe
+                width="100%"
+                height="auto"
+                src="https://www.youtube.com/embed/NbCRsq2vG2M"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+
+          <article class="project">
+            <div>
+              <iframe
+                width="100%"
+                height="au"
+                src="https://www.youtube.com/embed/iYYRH4apXDo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+
+          <!-- <article class="project">
+                  <div id="image-wrap">
+                      <img src="https://via.placeholder.com/250x180" alt="">
+                  </div>
+                  <div class="project-info" >
+                      <a href="#">Nombre proyecto</a>
+                      <p>Sitio web</p>
+                  </div>
+  
+              </article>
+  
+              <article class="project">
+                  <div id="image-wrap">
+                      <img src="https://via.placeholder.com/250x180" alt="">
+                  </div>
+                  <div class="project-info" >
+                      <a href="#">Nombre proyecto</a>
+                      <p>Sitio web</p>
+                  </div>
+  
+              </article>
+  
+              <article class="project">
+                  <div id="image-wrap">
+                      <img src="https://via.placeholder.com/250x180" alt="">
+                  </div>
+                  <div class="project-info" >
+                      <a href="#">Nombre proyecto</a>
+                      <p>Sitio web</p>
+                  </div>
+  
+              </article>
+  
+              <article class="project">
+                  <div id="image-wrap">
+                      <img src="https://via.placeholder.com/250x180" alt="">
+                  </div>
+                  <div class="project-info" >
+                      <a href="#">Nombre proyecto</a>
+                      <p>Sitio web</p>
+                  </div>
+  
+              </article> -->
+        </div>
+      </section>
+
+      <!-- Fin contenidos -->
+
+      <footer class="footer">
+        <div>David Bowie WEB &copy; 2023</div>
+      </footer>
+    </div>
+    <!-- Fin Container -->
+  </body>
 </html>
