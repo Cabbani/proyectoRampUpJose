@@ -40,11 +40,7 @@ body {
     width: 300px;
     list-style: none;
   
-    /* margin-block-start: 1em;
-      margin-block-end: 1em; */
-    /* margin-inline-start: 0px;
-      margin-inline-end: 0px; */
-    /* padding-inline-start: 40px; */
+   
   }
   
   li {
@@ -154,7 +150,6 @@ body {
 /* Comienzo del Form, Contacto */
 
 .body-contact {
-  /* color: #ab9b96; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -164,22 +159,10 @@ body {
 .body-contact {
   margin: 0;
   padding: 0;
-  /* background: url("https://healthcorp.com.au/public/wp-content/uploads/2015/10/bg-grey-shapes.png"); */
   background-size: cover;
   font-family: 'Roboto Slab', serif;
 }
 
-/* #tema {
-  background: orange;
-  text-align: left;
-  padding: 10px 5px;
-  text-align: center;
-  position: fixed;
-  top: 25px;
-  left: 5px;
-  font-size: 15px;
-  border-radius: .5%;
-} */
 
 audio {
   background: orange;
@@ -187,11 +170,6 @@ audio {
   width: 100%;
 }
 
-/* header img {
-  margin-top: 20px;
-  height: 100px;
-  width: 100px;
-} */
 
 #container {
   background: #FFF;
@@ -375,24 +353,24 @@ textarea {
   color: #51f057;
 }
 
-.jumbotron {
+.content-bio {
   background: #fff;
   margin: 0;
   padding: 0 0 45px 0;
   text-align: center;
 }
 
-.jumbotron h2 {
+.jcontent-bio h2 {
   font-size: 27px;
   padding-top: 5px;
 }
 
-.jumbotron h3 {
+.content-bio h3 {
   padding-bottom: 15px;
   padding-top: 5px;
 }
 
-.jumbotron img {
+.content-bio img {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .1);
   width: 30%;
 }
